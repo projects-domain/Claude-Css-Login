@@ -1,0 +1,135 @@
+html, body{
+    overflow: hidden;
+    margin: 0;
+    padding: 0; 
+}
+
+.page{
+    background-color: rgb(79, 0, 0);
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    width: 1100px;
+    height: 82vh;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 28px;
+    overflow: hidden;
+}
+
+.left{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 40px;  
+    background: url(jpg.jpg);
+    background-size: cover;
+}
+
+.right{
+    display: flex;
+    background-color: white;
+    min-height: 0;
+    height: 100%;
+    align-items: stretch;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px 70px;
+}
+
+h2{
+    margin: 0;
+    color: white;
+    font-size:50px;
+    width: 440px;
+    font-weight: 10;
+    font-family: sans-serif;
+}
+
+h1{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.subtitle{
+    margin: 12px 0 32px;
+    color: #999;
+    font-family: sans-serif;
+}
+
+.line{
+    height: 1px;
+    margin-bottom: 34px;
+    background-color: #ddd;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label{
+    color: #999;
+    font-family: sans-serif;
+}
+
+input,
+button{
+    min-height: 50px;
+    border-radius: 8px;
+    font: inherit;
+}
+
+input{
+    border: 1px solid #ddd;
+    padding: 0 16px;
+}
+
+button{
+    margin-top: 14px;
+    border: 0;
+    background-color: #f36b00;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+input:focus{
+    outline: 1px solid orange;
+}
+
+.login{
+    margin: 14px 0 0;
+    color: #999;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.login1{
+    color: black;
+}
